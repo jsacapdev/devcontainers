@@ -10,6 +10,7 @@ COPY dotnet/install-dotnet-preview.sh install-dotnet-preview.sh
 RUN bash ./install-dotnet-preview.sh \
      && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts     
 
+# add some lines to bashrc
 RUN echo 'alias ls="ls -alF"' >> ~/.bashrc
 
 # [Optional] Uncomment this section to install additional OS packages.

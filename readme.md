@@ -1,5 +1,9 @@
 # Dev Containers 
 
+Dev Container configuration for a dotnet application. Spins up a container for development purposes and supporting containers (in this case a SQL database).
+
+Uses a base image build and then layers in some additional dependencies (at the time of writing install .NET 8 preview).
+
 To attach and run commands on the shell in the container (cd `/workspaces`):
 
 `docker exec -it netdevcontainer /bin/bash`

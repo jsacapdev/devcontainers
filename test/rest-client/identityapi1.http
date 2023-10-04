@@ -1,0 +1,13 @@
+@hostaddress = http://localhost:5000
+
+GET {{hostaddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+@hostaddress = https://localhost:5001
+
+GET {{hostaddress}}/weatherforecast/
+Accept: application/json
+
+###

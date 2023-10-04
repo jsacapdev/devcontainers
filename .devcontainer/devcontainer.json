@@ -4,6 +4,8 @@
 	"name": "C# (.NET) and MS SQL",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
+	// without the below, the command to build in a terminal or using vscode fails with a permission denied
+	"remoteUser": "root",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
