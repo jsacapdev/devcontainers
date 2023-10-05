@@ -63,4 +63,3 @@ then
     done
 fi
 
-dotnet dev-certs https --trust

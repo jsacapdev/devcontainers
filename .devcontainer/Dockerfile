@@ -13,6 +13,12 @@ RUN bash ./install-dotnet-preview.sh \
 # add some lines to bashrc
 RUN echo 'alias ls="ls -alF"' >> ~/.bashrc
 
+RUN dotnet dev-certs https --trust
+
+RUN dotnet tool update --global dotnet-ef --prerelease
+
+ENV PATH="$PATH:/root/.dotnet/tools"
+
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
