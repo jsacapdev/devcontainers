@@ -40,6 +40,8 @@ public class Program
 
         app.MapControllers();
 
+        app.MapGroup("/account").MapIdentityApi<AppUser>();
+
         app.Run();
     }
 }

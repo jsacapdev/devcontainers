@@ -17,7 +17,7 @@
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ConnectionStrings__DefaultConnection": "Server=127.0.0.1,1433;Database=ApplicationDB;User Id=sa;Password=P@ssw0rd"
+                "ConnectionStrings__DefaultConnection": "Server=127.0.0.1,1433;Database=IdentityDB;User Id=sa;Password=P@ssw0rd;TrustServerCertificate=True"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"

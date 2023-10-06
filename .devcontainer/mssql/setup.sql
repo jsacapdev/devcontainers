@@ -1,8 +1,8 @@
 IF NOT EXISTS(SELECT *
 FROM sys.databases
-WHERE name = 'ApplicationDB')
+WHERE name = 'IdentityDB')
   BEGIN
-    CREATE DATABASE ApplicationDB;
+    CREATE DATABASE IdentityDB;
 END
 
 GO
