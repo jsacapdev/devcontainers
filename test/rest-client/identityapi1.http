@@ -28,6 +28,17 @@ Content-Type: application/json
 
 ###
 
+# @name login 
+POST {{host}}/account/login?cookieMode=true&persistCookies=true HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "andrew@example.com",
+  "password": "SuperSecret1!"
+}
+
+###
+
 ### Fetch a new access token
 POST {{host}}/account/refresh HTTP/1.1
 Content-Type: application/json
