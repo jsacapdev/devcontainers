@@ -17,7 +17,9 @@ Connect to SQL in container using [Sql Server Management Studio](https://learn.m
 To generate and apply migrations:
 
 `dotnet ef migrations add InitialSchema`
+`dotnet ef migrations add Users -c ApplicationDbContext -o Data/Migrations`
 `dotnet ef database update --connection "Server=127.0.0.1,1433;Database=IdentityDB;User Id=sa;Password=P@ssw0rd;TrustServerCertificate=True"`
+`dotnet ef database update -c ApplicationDbContext --connection "Server=127.0.0.1,1433;Database=IdentityDB;User Id=sa;Password=P@ssw0rd;TrustServerCertificate=True"`
 
 To access the identitiy endpoints:
 

@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9A7D921-C00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identityapi1", "src\identityapi1\identityapi1.csproj", "{33CA9A40-934A-48AB-A81F-B6429E8BACCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerAspNetIdentity", "src\IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{3C2B7EC6-0A6C-4A21-94B5-88689AC4BD26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{33CA9A40-934A-48AB-A81F-B6429E8BACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33CA9A40-934A-48AB-A81F-B6429E8BACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33CA9A40-934A-48AB-A81F-B6429E8BACCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2B7EC6-0A6C-4A21-94B5-88689AC4BD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2B7EC6-0A6C-4A21-94B5-88689AC4BD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2B7EC6-0A6C-4A21-94B5-88689AC4BD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2B7EC6-0A6C-4A21-94B5-88689AC4BD26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{33CA9A40-934A-48AB-A81F-B6429E8BACCA} = {D9A7D921-C00E-4646-A6EF-4AD1E1DB7AAD}
+		{3C2B7EC6-0A6C-4A21-94B5-88689AC4BD26} = {D9A7D921-C00E-4646-A6EF-4AD1E1DB7AAD}
 	EndGlobalSection
 EndGlobal
