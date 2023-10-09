@@ -17,6 +17,8 @@ RUN dotnet dev-certs https --trust
 
 RUN dotnet tool update --global dotnet-ef --prerelease
 
+RUN dotnet new install Duende.IdentityServer.Templates
+
 ENV PATH="$PATH:/root/.dotnet/tools"
 
 # [Optional] Uncomment this section to install additional OS packages.
